@@ -4,8 +4,8 @@
 using HoloToolkit.Unity;
 using UnityEngine;
 
-#if UNITY_EDITOR || UNITY_WSA
-
+#if UNITY_WSA
+using UnityEngine.XR.WSA.Input;
 #endif
 
 namespace HoloToolkit.Examples.SpatialMappingComponent
@@ -15,23 +15,23 @@ namespace HoloToolkit.Examples.SpatialMappingComponent
     /// </summary>
     public class DropCube : MonoBehaviour
     {
-#if UNITY_EDITOR || UNITY_WSA
-        UnityEngine.XR.WSA.Input.GestureRecognizer recognizer;
+#if UNITY_WSA
+        private GestureRecognizer recognizer;
 
         private void Start()
         {
-            recognizer = new UnityEngine.XR.WSA.Input.GestureRecognizer();
-            recognizer.SetRecognizableGestures(UnityEngine.XR.WSA.Input.GestureSettings.Tap);
-            recognizer.TappedEvent += Recognizer_TappedEvent;
+            recognizer = new GestureRecognizer();
+            recognizer.SetRecognizableGestures(GestureSettings.Tap);
+            recognizer.Tapped += Recognizer_Tapped;
             recognizer.StartCapturingGestures();
         }
 
         private void OnDestroy()
         {
-            recognizer.TappedEvent -= Recognizer_TappedEvent;
+            recognizer.Tapped -= Recognizer_Tapped;
         }
 
-        private void Recognizer_TappedEvent(UnityEngine.XR.WSA.Input.InteractionSourceKind source, int tapCount, Ray headRay)
+        private void Recognizer_Tapped(TappedEventArgs obj)
         {
             // Create a cube
             var cube = GameObject.CreatePrimitive(PrimitiveType.Cube);
