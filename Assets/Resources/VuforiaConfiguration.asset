@@ -17,9 +17,9 @@ MonoBehaviour:
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
-    useDelayedLoadingObjectTargets: 0
+    useDelayedLoadingObjectTargets: 1
     cameraDirection: 0
-    mirrorVideoBackground: 0
+    mirrorVideoBackground: 1
   digitalEyewear:
     cameraOffset: 0.06
     distortionRenderingMode: 2
@@ -27,8 +27,8 @@ MonoBehaviour:
     eyewearType: 1
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: VR ONE
+    viewerManufacturer: Zeiss
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -44,8 +44,10 @@ MonoBehaviour:
       ContainsMagnet: 0
   databaseLoad:
     dataSetsToLoad:
+    - ToysThatMakeNoise_OT
     - ToysThatMakeNoise
     dataSetsToActivate:
+    - ToysThatMakeNoise_OT
     - ToysThatMakeNoise
   videoBackground:
     clippingMode: 0

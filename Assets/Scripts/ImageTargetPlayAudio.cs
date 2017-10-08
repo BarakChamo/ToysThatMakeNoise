@@ -7,9 +7,13 @@ public class ImageTargetPlayAudio : MonoBehaviour, ITrackableEventHandler
 {
 	private TrackableBehaviour mTrackableBehaviour;
 	public AudioSource audio;
+    public bool trig;
 
 	void Start()
 	{
+        audio.volume = 0.0f;
+        trig = false;
+
 		mTrackableBehaviour = GetComponent<TrackableBehaviour>();
 		if (mTrackableBehaviour)
 		{
@@ -25,13 +29,15 @@ public class ImageTargetPlayAudio : MonoBehaviour, ITrackableEventHandler
 			newStatus == TrackableBehaviour.Status.TRACKED ||
 			newStatus == TrackableBehaviour.Status.EXTENDED_TRACKED)
 		{
-			// Play audio when target is found
-			audio.Play();
-		}
+            // Play audio when target is found
+            // audio.Play();
+            trig = true;
+            audio.volume = 1.0f;
+        }
 		else
 		{
 			// Stop audio when target is lost
-			audio.Stop();
+			// audio.Stop();
 		}
 	}   
 }

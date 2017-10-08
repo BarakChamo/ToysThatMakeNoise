@@ -7,7 +7,7 @@ public class AudioReactive : MonoBehaviour {
     public GameObject target;
     private Vector3 trans;
 
-    void Setup() {
+    void Start() {
        trans = target.transform.localScale;
     }
     void Update()
@@ -25,7 +25,7 @@ public class AudioReactive : MonoBehaviour {
             Debug.DrawLine(new Vector3(Mathf.Log(i - 1), spectrum[i - 1] - 10, 1), new Vector3(Mathf.Log(i), spectrum[i] - 10, 1), Color.green);
             Debug.DrawLine(new Vector3(Mathf.Log(i - 1), Mathf.Log(spectrum[i - 1]), 3), new Vector3(Mathf.Log(i), Mathf.Log(spectrum[i]), 3), Color.blue);
         }
-        Debug.Log(a);
+
         target.transform.localScale = trans + new Vector3((a), (a), (a));
     }
 

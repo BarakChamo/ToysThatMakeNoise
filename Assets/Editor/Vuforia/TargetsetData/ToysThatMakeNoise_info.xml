@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="QCAR_Dataset_config.xsd">
+  <TargetSet version="5.0" toolVersion="4.2.0">
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-08 11:14:41" name="MergeCube" targetId="2073f579a5364dd6ab508cb0157739de" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-08 10:20:16" name="GrayCar" targetId="e31cc6a4c5734a818829a2d2a249f002" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-07 23:55:37" name="YellowCar" targetId="6fd2d6957f334d1dacceedd6dbede5bc" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-08 10:34:25" name="Strawman" targetId="e707f9ab9c674008a13620f0c3a9184d" version="2.0" />
+    <ObjectTarget bbox="0.0 0.0 0.0 142.5 95.0 95.0" captureAppVersion="1.0.0" lastSaved="2017-10-08 10:29:11" name="HotWheelsTruck" targetId="b6ed2aee40354f00801ebd64b42d6548" version="2.0" />
+  </TargetSet>
+</QCARInfo>

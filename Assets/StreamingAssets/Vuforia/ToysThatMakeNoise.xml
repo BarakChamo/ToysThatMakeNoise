@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
-  <Tracking>
-    <ImageTarget name="GabrielWavingStripes" size="1.000000 1.773756" />
-    <ImageTarget name="Astronaut" size="1.000000 0.684685" />
-    <ImageTarget name="AstronautBetter" size="1.000000 0.576439" />
-    <ImageTarget name="astro" size="2.000000 3.466899" />
-  </Tracking>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="Mai" size="10.000000 13.213611"/>
+        <ImageTarget name="ToysNoise" size="6.000000 3.601153"/>
+        <ImageTarget name="Tired" size="6.000000 11.973615"/>
+        <ImageTarget name="CarRoof" size="2.500000 2.174186"/>
+        <ImageTarget name="Fish" size="15.000000 9.753788"/>
+        <ImageTarget name="FrameChildren" size="10.000000 14.992581"/>
+        <ImageTarget name="GabrielFramed" size="10.000000 15.202206"/>
+        <ImageTarget name="GabrielWavingStripes" size="1.000000 1.773756"/>
+        <ImageTarget name="Astronaut" size="1.000000 0.684685"/>
+        <ImageTarget name="AstronautBetter" size="1.000000 0.576439"/>
+        <ImageTarget name="astro" size="2.000000 3.466899"/>
+        <ImageTarget name="MultiCube.Front" size="0.070000 0.070156"/>
+        <ImageTarget name="MultiCube.Left" size="0.070000 0.069927"/>
+        <ImageTarget name="MultiCube.Right" size="0.070000 0.069927"/>
+        <ImageTarget name="MultiCube.Bottom" size="0.070000 0.070073"/>
+        <ImageTarget name="MultiCube.Top" size="0.070000 0.070000"/>
+        <ImageTarget name="MultiCube.Back" size="0.070000 0.070073"/>
+        <MultiTarget name="MultiCube">
+            <Part name="MultiCube.Left" translation="-0.03500000014901161 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="MultiCube.Right" translation="0.03500000014901161 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="MultiCube.Front" translation="0 0 0.03500000014901161" rotation="AD: 1 0 0 0"/>
+            <Part name="MultiCube.Back" translation="0 0 -0.03500000014901161" rotation="AD: 0 1 0 180"/>
+            <Part name="MultiCube.Top" translation="0 0.03500000014901161 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="MultiCube.Bottom" translation="0 -0.03500000014901161 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
 </QCARConfig>

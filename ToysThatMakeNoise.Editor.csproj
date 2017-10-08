@@ -183,6 +183,8 @@
     <Compile Include="Assets\Vuforia\Editor\Scripts\VuforiaConfigurationEditor.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Editor\Vuforia\TargetsetData\ToysThatMakeNoise_info.xml" />
+    <None Include="Assets\FullTiltBoogie\Helpers\readme.txt" />
     <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTransparentTriplanar.shader" />
     <None Include="Assets\HoloToolkit-Examples\Prototyping\Shaders\UnlitTriplanar.shader" />
     <None Include="Assets\HoloToolkit\Input\Shaders\Cursor.shader" />
@@ -219,9 +221,27 @@
     <None Include="Assets\HoloToolkit\Utilities\Shaders\VertexLitConfigurableTransparent.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Shaders\WindowOcclusion.shader" />
     <None Include="Assets\HoloToolkit\Utilities\Shaders\macro.cginc" />
+    <None Include="Assets\Jiggly Bubble Free\readme_Jiggly_Bubble_Free.txt" />
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
     <None Include="Assets\Plugins\iOS\Vuforia.UnityExtensions.iOS.XML" />
+    <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Readme.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Guidelines.txt" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
+    <None Include="Assets\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularDisplacement.shader" />
+    <None Include="Assets\Standard Assets\Effects\TessellationShaders\Shaders\BumpedSpecularSmooth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonBasicOutline.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
+    <None Include="Assets\Standard Assets\Effects\ToonShading\Shaders\ToonLitOutline.shader" />
     <None Include="Assets\StreamingAssets\Vuforia\ToysThatMakeNoise.xml" />
+    <None Include="Assets\StreamingAssets\Vuforia\ToysThatMakeNoise_OT.xml" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Cutout Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Cutout Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Double-Sided Wireframe.shader" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe Functions.cginc" />
+    <None Include="Assets\UCLAGameLab\Wireframe\Shaders\UCLA GameLab Wireframe.shader" />
     <None Include="Assets\Vuforia\Editor\Scripts\Vuforia.UnityExtensions.Editor.XML" />
     <None Include="Assets\Vuforia\Editor\WebcamProfiles\profiles.xml" />
     <None Include="Assets\Vuforia\Scripts\Internal\Vuforia.UnityExtensions.XML" />
